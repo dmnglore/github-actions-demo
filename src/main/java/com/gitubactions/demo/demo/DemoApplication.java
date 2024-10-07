@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class DemoApplication {
 
 	@GetMapping("/welcome")
-	public String welcome(){
+	public String welcome() {
 		return "Welcome to github Actions";
 	}
 
@@ -19,12 +19,4 @@ public class DemoApplication {
 	}
 }
 
-//git init
-//git status
-
-//git commit -m "first commit"
-//git branch -M main
-//git remote add origin https://github.com/dmnglore/github-actions-demo.git
-//git add
-// git push -u origin maingit init
 
